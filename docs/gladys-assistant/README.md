@@ -1,10 +1,12 @@
 # Gladys Assistant integration
 
+![logo](gladys-assistant.png ':size=50')
+
 `tydom2mqtt` is compatible with [Gladys Assistant](https://gladysassistant.com) through the
-[**gladys-tydom-v2**](https://github.com/quentinlegay/gladys-tydom-v2) external integration.
+[**gladys-tydom**](https://github.com/quentinlegay/gladys-tydom) external integration.
 
 ```
-Tydom gateway <──> tydom2mqtt <──> MQTT broker <──> gladys-tydom-v2 <──> Gladys
+Tydom gateway <──> tydom2mqtt <──> MQTT broker <──> gladys-tydom <──> Gladys
 ```
 
 ## How it works
@@ -29,7 +31,7 @@ Tydom gateway <──> tydom2mqtt <──> MQTT broker <──> gladys-tydom-v2 
 | `binary_sensor`           | battery-low, motion                                             |
 
 ?> Installation and configuration are documented in the
-[gladys-tydom-v2 repository](https://github.com/quentinlegay/gladys-tydom-v2)
-([English](https://github.com/quentinlegay/gladys-tydom-v2/blob/main/docs/en.md) ·
-[Français](https://github.com/quentinlegay/gladys-tydom-v2/blob/main/docs/fr.md)).
+[gladys-tydom repository](https://github.com/quentinlegay/gladys-tydom)
+([English](https://github.com/quentinlegay/gladys-tydom/blob/main/docs/en.md) ·
+[Français](https://github.com/quentinlegay/gladys-tydom/blob/main/docs/fr.md)).
 Please report Gladys-specific issues there.

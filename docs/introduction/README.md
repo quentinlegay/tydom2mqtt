@@ -40,7 +40,7 @@ docker run -d --name tydom2mqtt \
 So maybe take a look at the [Hass.io add-on version](/hass/)!
 
 ?> Using [Gladys Assistant](https://gladysassistant.com)? \
-`tydom2mqtt` is compatible with Gladys through the [gladys-tydom-v2 integration](/gladys/).
+`tydom2mqtt` is compatible with Gladys through the [gladys-tydom integration](/gladys-assistant/).
 
 ## Contact & Support
 
